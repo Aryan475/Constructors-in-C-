@@ -1,0 +1,23 @@
+//Basic C++ Constructor Program
+#include<iostream>
+using namespace std;
+class complex{
+    int a,b;
+    public:
+    complex(void);
+    void print();
+};
+complex::complex(void)
+{
+    a=10;
+    b=0;
+}
+void complex::print()
+{
+    cout<<a<<"+"<<b<<"i";
+}
+int main()
+{
+    complex o;
+    o.print();
+}
